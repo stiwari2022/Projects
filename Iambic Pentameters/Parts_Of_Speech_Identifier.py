@@ -1,4 +1,4 @@
-def Simplified_Parts_Of_Speech(Word):
+def Simplified_Parts_of_Speech(Word):
   import nltk
   from nltk import pos_tag, word_tokenize
   #nltk.download('punkt')
@@ -7,12 +7,15 @@ def Simplified_Parts_Of_Speech(Word):
   Tokenized_Word=pos_tag(word_tokenize(Word), tagset='universal')
   Part_Of_Speech=Tokenized_Word[0][1]
   return Part_Of_Speech
+Simplified_Parts_of_Speech("and")
 
 
-def Complicated_Parts_Of_Speech(Word):
+
+def Complicated_Parts_of_Speech(Word):
   import nltk
   from nltk import pos_tag, word_tokenize
   #nltk.download('punkt')
   Tokenized_Word=pos_tag(word_tokenize(Word))
   Part_Of_Speech=Tokenized_Word[0][1]
   return Part_Of_Speech
+Complicated_Parts_of_Speech("and")
