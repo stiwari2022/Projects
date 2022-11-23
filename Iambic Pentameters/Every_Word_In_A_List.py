@@ -1,7 +1,7 @@
 #Returns a string as a list with only words
 def List_Words(Words):
   import nltk
-  ###nltk.download('punkt')
+  #nltk.download('punkt')
   WordsListTransfer=nltk.word_tokenize(Words)
   WordsList=[]
   C=0
