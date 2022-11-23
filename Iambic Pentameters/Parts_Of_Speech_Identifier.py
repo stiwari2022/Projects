@@ -7,4 +7,4 @@ def Parts_Of_Speech(Word):
   Tokenized_Word=pos_tag(word_tokenize(Word), tagset='universal')
   Part_Of_Speech=Tokenized_Word[0][1]
   return Part_Of_Speech
-Parts_Of_Speech("poop")
+Parts_Of_Speech("And")
