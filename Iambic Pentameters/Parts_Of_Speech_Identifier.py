@@ -1,3 +1,4 @@
+#Returns one of the 12 parts of speech
 def Simplified_Parts_of_Speech(Word):
   import nltk
   from nltk import pos_tag, word_tokenize
@@ -11,6 +12,7 @@ Simplified_Parts_of_Speech("and")
 
 
 
+#Returns one of the 34 complicated parts of speech
 def Complicated_Parts_of_Speech(Word):
   import nltk
   from nltk import pos_tag, word_tokenize
