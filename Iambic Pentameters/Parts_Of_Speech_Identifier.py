@@ -1,4 +1,18 @@
 #Returns one of the 12 parts of speech
+"""
+VERB: Verbs (all tenses and modes)
+NOUN: Nouns (common and proper)
+PRON: Pronouns 
+ADJ: Adjectives
+ADV: Adverbs
+ADP: Adpositions (prepositions and postpositions)
+CONJ: Conjunctions
+DET: Determiners
+NUM: Cardinal numbers
+PRT: Particles or other function words
+X: Other: foreign words, typos, abbreviations
+.: Punctuation
+"""
 def Simplified_Parts_of_Speech(Word):
   import nltk
   from nltk import pos_tag, word_tokenize
